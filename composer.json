@@ -1,0 +1,28 @@
+{
+  "name": "sebius77/phpcisco",
+  "description": "This PHP class provides connectivity to Cisco switches and routers.",
+  "keywords": ["cisco", "sebius77"],
+  "homepage": "http://www.soucy.org/project/cisco/",
+  "type": "library",
+  "license": "GPL-3.0",
+  "authors": [
+    {"name": "Ray Patrick Soucy", "homepage": "http://www.soucy.org/"}
+
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~3.7.10"
+  },
+  "autoload": {
+    "classmap": [
+      "phpseclib-0.3.1_hotfix/"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.3.x-dev"
+    }
+  }
+}
